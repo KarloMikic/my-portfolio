@@ -36,7 +36,6 @@ const StyledAvatar = styled(Avatar)(({theme}) => ({
 const StyledBox = styled(Box)(({theme}) => ({
     backgroundColor: theme.palette.primary.main,
     height: "100%",
-    width: "100%"
 }))
 
 
@@ -81,6 +80,7 @@ const Navbar = () =>{
        )}
 
     return(
+    <React.Fragment>
         <Box component="nav">
             <StyledAppBar position="static">
                 <Toolbar open>
@@ -92,11 +92,13 @@ const Navbar = () =>{
                     </IconButton>
                 </Toolbar>
             </StyledAppBar>
+        </Box>
             <Drawer anchor='left' open={open} onClose={() => setOpen(false)}>
                 {listDrawer()}
                 <Footer />
             </Drawer>
-        </Box>
+        
+    </React.Fragment>
     )
 }
 

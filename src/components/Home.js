@@ -32,7 +32,7 @@ const Home = () =>{
 
     
     return(
-
+        <React.Fragment>
             <StyledBox >
                <Grid container justifyContent="center">
                     <StyledAvatar alt="Karlo Mikić" src={avatar}/>
@@ -44,7 +44,7 @@ const Home = () =>{
                     <Button href="https://www.linkedin.com/in/karlo-miki%C4%87-a86234237/" target="_blank" variant = "outlined" color="primary">LinkedIn</Button>
                 </Box>
             </StyledBox>
-            
+    </React.Fragment>
 
     )
 }
