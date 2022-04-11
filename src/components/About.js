@@ -4,7 +4,7 @@ import { Box, Container, Grid, styled, Typography, } from '@mui/material'
 import data from "../data/SkillsData.js"
 
 const StyledContainer = styled(Container)(({theme}) => ({
-    height: "100vh",
+    height: "100%",
     minWidth:"75%",
     backgroundColor:`rgba(34,51,51, 0.8)`,
   }))
@@ -12,9 +12,10 @@ const StyledContainer = styled(Container)(({theme}) => ({
     display:"flex",
     flexDirection:"column",
     alignItems:"center",
-    gap: "20px",
+    gap: "15px",
     marginLeft: "10vw",
-    marginRight: "10vw"
+    marginRight: "10vw",
+    textAlign:"center"
   }))
   
   const StyledGrid = styled(Grid)(({theme}) => ({
@@ -78,7 +79,7 @@ const About = () =>{
                 color: "#F06A27",
                 letterSpacing: "0.001px"
               }}>Interests and hobbies</Typography>
-              <Typography variant='body1' align='center'> Gamer. Car enthusiast. Music lover. Food expert. Beer geek. Travelling.  
+              <Typography sx={{marginBottom: 7}} variant='body1' align='center'> Gamer. Car enthusiast. Music lover. Food expert. Beer geek. Travelling.  
                 </Typography>
         </StyledBox>
         </StyledContainer>

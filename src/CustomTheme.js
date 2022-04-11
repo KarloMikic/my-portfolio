@@ -38,7 +38,8 @@ const theme = createTheme({
       styleOverrides:{
         body1:{
           fontSize: "1.25rem",
-          color: "#EFEFEF"
+          color: "#EFEFEF",
+
         },
         h5:{
           color: "#EFEFEF"

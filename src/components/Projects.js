@@ -7,8 +7,7 @@ import data from "../data/ProjectsData"
 
 const StyledCard = styled(Card)(({theme}) => ({
   backgroundColor:`rgba(34,51,51, 0.8)`,
-    height: "100%",
-    
+    width: 345
 
 }))
 const StyledBox = styled(Box)(({theme}) => ({
@@ -28,15 +27,14 @@ const StyledGrid = styled(Grid)(({theme}) => ({
 }))
 const StyledCardContent = styled(CardContent)(({theme}) =>({
     backgroundColor: theme.palette.secondary.main,
-    minHeight:"16vh",
-    maxHeight:"16vh",
+    minHeight:"18vh",
     color: theme.palette.secondary.contrastText
 }))
 const StyledCardActions = styled(CardActions)(({theme}) =>({
     background: theme.palette.primary.main,
     display:'flex',
     gap: "10px",
-    minHeight:"3.5vh"
+    minHeight:"5vh"
     
 }))
 
@@ -49,7 +47,7 @@ const Projects = () =>{
                 
                 <StyledGrid item key={i}>
                     <StyledCard>
-                        <Card sx={{ width: 345 }}>
+                        
                           <StyledCardMedia
                             component="img"
                             alt="Project 1"
@@ -67,7 +65,7 @@ const Projects = () =>{
                             {item.liveURL && <Button variant='contained' color="secondary" href={item.liveURL} target="_blank" size="small">Live demo</Button> }
                             {item.gitURL && <Button variant='contained' color="secondary" href={item.gitURL} target="_blank" size="small">Git Hub<GitHubIcon /></Button>}
                           </StyledCardActions>
-                        </Card>
+                       
                     </StyledCard>
                 </StyledGrid>
                  
