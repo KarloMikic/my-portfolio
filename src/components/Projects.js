@@ -16,8 +16,8 @@ const StyledBox = styled(Box)(({theme}) => ({
   backgroundColor:`rgba(34,51,51, 0.8)`
 }))
 const StyledCardMedia = styled(CardMedia)(({theme}) => ({
-  maxHeight: "20vh",
-  minHeight: "20vh"
+  maxHeight: "25vh",
+  minHeight: "25vh"
 
 }))
 

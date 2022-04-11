@@ -56,13 +56,16 @@ const About = () =>{
                     color:"#EFEFEF",
                     fontWeight:"bold",
                     marginLeft:"25px",
-                    marginRight:"25px"
+                    marginRight:"25px",
+                    marginTop:"25px"
                   }}
                   >
                   <Box component="img"
                         sx={{
                           height: 50,
                           width: 50,
+                          marginLeft:"12px",
+                          marginRight:"12px"
                         }}
                         src={item.img}
                   ></Box>
