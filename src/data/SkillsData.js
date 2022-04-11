@@ -1,5 +1,3 @@
-import reactPic from "../images/React.png"
-
 const data = [
     {
         img: "https://img.icons8.com/color/344/html-5--v1.png",
