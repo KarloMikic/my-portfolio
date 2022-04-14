@@ -40,7 +40,7 @@ const Home = () =>{
                 <StyledTypography>Karlo Mikić</StyledTypography>
                 <StyledTypography>Front-end developer</StyledTypography>
                 <Box sx={{display:"flex", justifyContent:"center", gap: "30px", height:"50px"}}>
-                    <Button href="https://www.google.com" target="_blank" variant = "contained" color="primary">Download CV</Button>
+                    <Button href="https://drive.google.com/file/d/19UOHRcndJ0gz22fB2Rl45IPuUqRw3L6C/view" target="_blank" variant = "contained" color="primary">Download CV</Button>
                     <Button href="https://www.linkedin.com/in/karlo-miki%C4%87-a86234237/" target="_blank" variant = "outlined" color="primary">LinkedIn</Button>
                 </Box>
             </StyledBox>

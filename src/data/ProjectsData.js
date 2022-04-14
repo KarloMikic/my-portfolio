@@ -10,9 +10,9 @@ const data = [
     {
         img: `${project1}`,
         title: "Digital bussiness card",
-        description: `Simple digital bussiness card made with HTML, CSS and React.`,
-        liveURL: "https://google.com",
-        gitURL: "https://github.com/KarloMikic"
+        description: `Simple digital bussiness card made with HTML, CSS and React as part of Scrimba course.`,
+        liveURL: "https://karlomikic-bcard-project.netlify.app/",
+        gitURL: "https://github.com/KarloMikic/business-card-project"
     },
     {
         img: `${project2}`,
